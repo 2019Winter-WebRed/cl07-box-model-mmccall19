@@ -1,0 +1,41 @@
+/*
+*Mackenzie
+*May 9
+*San Joaquin Valley Town Hall
+*/
+
+/* The universal selector */
+
+/* this zeroes out the universial selector margin and padding */
+* {
+    margin: 0;
+    padding: 0; 
+
+}
+
+/* this gives the body a border with padding and a margin */
+body {
+    border: 2px dashed red;
+    padding: 20px 60px 20px 20px;
+    margin: 20px;
+}
+/* Boddy attributes here */
+
+/* this gives the main section a colored border with padding */
+main {
+    border: 2px solid black;
+    padding: 20px 2px 2px 2px;
+}
+
+/* this gives the header its own border and margin */
+h1 {
+    border: 2px dashed blue;
+    margin: 10px;
+    
+}
+
+/* this gives the paragraph its own colored border with a margin */
+p {
+    border: 2px dashed blue;
+    margin: 10px;
+}
